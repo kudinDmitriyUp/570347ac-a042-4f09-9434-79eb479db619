@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -79,21 +79,21 @@ export default function LandingPage() {
           animationType="slide-up"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Deluxe Suite",
               description: "Spacious elegance with city views, marble bathroom, king-size bed, and private sitting area. Perfect for business travelers and couples seeking refined comfort.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763547271981-x8w5h3ci.jpg",
               imageAlt: "Deluxe Suite interior"
             },
             {
-              id: "2",
+              id: 2,
               title: "Premium Room",
               description: "Contemporary design meets classic comfort with premium amenities, rainfall shower, and curated local artwork. Your sanctuary in the heart of the city.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763547272769-xp4oo9ph.jpg",
               imageAlt: "Premium Room interior"
             },
             {
-              id: "3",
+              id: 3,
               title: "Presidential Suite",
               description: "The pinnacle of luxury featuring panoramic views, private terrace, butler service, and bespoke furnishings. An unforgettable experience awaits.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763547273588-9fbpoem1.jpg",
